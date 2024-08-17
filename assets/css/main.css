@@ -1,0 +1,30 @@
+/* --theme-sheet-width-xl: 1140px;
+--theme-sheet-width-lg: 940px;
+--theme-sheet-width-md: 720px;
+--theme-sheet-width-sm: 540px;
+--theme-sheet-width-xs: 340px; */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/public/fonts/Open_Sans/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
