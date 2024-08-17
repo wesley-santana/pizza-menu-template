@@ -3,7 +3,7 @@
     <div class="container">
       <ul>
         <li>
-            <img src="/products/italian.png" alt="Pizza Marguerita">
+            <img src="/images/products/pizza.png" alt="Pizza Marguerita">
             <h3>
                 Marguerita
             </h3>
@@ -15,7 +15,7 @@
             </p>
         </li>
         <li>
-            <img src="/products/italian.png" alt="Pizza Pepperoni">
+            <img src="/images/products/pizza.png" alt="Pizza Pepperoni">
             <h3>
                 Pepperoni
             </h3>
@@ -27,7 +27,7 @@
             </p>
         </li>
         <li>
-            <img src="/products/italian.png" alt="Pizza Four Cheese">
+            <img src="/images/products/pizza.png" alt="Pizza Four Cheese">
             <h3>
                 Four Cheese
             </h3>
@@ -41,7 +41,7 @@
       </ul>
       <ul>
         <li>
-            <img src="/products/italian.png" alt="Pizza Marguerita">
+            <img src="/images/products/pizza.png" alt="Pizza Marguerita">
             <h3>
                 Marguerita
             </h3>
@@ -53,7 +53,7 @@
             </p>
         </li>
         <li>
-            <img src="/products/italian.png" alt="Pizza Pepperoni">
+            <img src="/images/products/pizza.png" alt="Pizza Pepperoni">
             <h3>
                 Pepperoni
             </h3>
@@ -65,7 +65,7 @@
             </p>
         </li>
         <li>
-            <img src="/products/italian.png" alt="Pizza Four Cheese">
+            <img src="/images/products/pizza.png" alt="Pizza Four Cheese">
             <h3>
                 Four Cheese
             </h3>
@@ -80,7 +80,7 @@
     </div>
   </section>
 </template>
-<style>
+<style lang="css">
   #products {
     margin-top: -32px;
   }
