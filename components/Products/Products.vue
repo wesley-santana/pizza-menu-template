@@ -38,9 +38,7 @@
                 R$ 39,90
             </p>
         </li>
-      </ul>
-      <ul>
-        <li>
+         <li>
             <img src="/images/products/pizza.png" alt="Pizza Marguerita">
             <h3>
                 Marguerita
@@ -86,15 +84,14 @@
   }
   ul {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0;
     gap: 16px;
-    margin-bottom: 16px;
   }
 
   li {
-    width: 33.33%;
+    flex: 1 1 calc(33.33% - 32px);
     padding: 32px;
     background-color: white;
     display: flex;
@@ -123,5 +120,18 @@
     align-self: center;
     font-size: 24px;
   }
+
+
+@media (max-width: 768px) {
+  li {
+    flex: 1 1 calc(50% - 32px);
+  }
+}
+
+@media (max-width: 480px) {
+  li {
+    flex: 1 1 100%;
+  }
+}
 
 </style>

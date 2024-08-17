@@ -1,6 +1,5 @@
 <template>
   <header>
-    <!-- <span class="logo"><img src="public/images/banner/logo.png"></span> -->
     <h1>
       Menu Pizza Template
     </h1>
@@ -24,10 +23,5 @@ h1 {
   text-align: center;
   color: white;
   font-size: 48px;
-}
-
-span img{
-    width: 150px;
-    height: 150px;
 }
 </style>
