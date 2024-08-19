@@ -3,4 +3,5 @@
     <Products />
     <Details />
     <Testimonials />
+    <Footer />
 </template>
