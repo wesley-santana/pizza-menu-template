@@ -1,51 +1,66 @@
 #testimonials {
-    background-color: #f9f9f9;
-    padding: 144px 64px;
+  background-color: #f9f9f9;
+  padding: 144px 64px;
 }
 
 article {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 h2,
 h3,
 p {
-    color: #1d1d1d;
+  color: #1d1d1d;
 }
 
 h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
 }
 
 p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
 }
 
 .container h2 {
-    font-size: 64px;
-    margin-bottom: 32px;
+  font-size: 64px;
+  margin-bottom: 32px;
 }
 
 span {
-    font-size: 48px;
-    color: #e73d0c;
+  font-size: 48px;
+  color: #e73d0c;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 32px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 
 .container div {
-    flex: 1 1 calc(50% - 32px);
+  flex: 1 1 calc(50% - 32px);
+}
+
+@media (max-width: 768px) {
+
+  #testimonials {
+    padding: 64px 0;
+  }
+
+  .container h2 {
+    font-size: 48px;
+  }
+
+  .container div {
+    flex: 1 1 100%;
+  }
 }

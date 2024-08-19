@@ -33,12 +33,11 @@
 
  .box {
    width: 100%;
-   max-width: 720px;
    min-height: 501px;
    display: flex;
    justify-content: space-around;
    align-items: center;
-   gap: 16px;
+   gap: 32px;
  }
 
  .box>div {
@@ -62,4 +61,14 @@
  span {
    font-weight: bold;
    color: rgb(17, 17, 17);
+ }
+
+ @media (max-width: 768px) {
+   .box {
+     padding: 32px;
+   }
+
+   .box>div {
+     flex: 1 1 100%;
+   }
  }

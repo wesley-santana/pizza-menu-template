@@ -25,16 +25,6 @@
     </div>
   </section>
 </template>
-<script setup>
-  import { ref, onMounted } from 'vue'
-  import { gsap } from 'gsap'
-
-  const box = ref(null)
-
-  onMounted(() => {
-    gsap.to(box.value, { rotation: 360, duration: 2 })
-  })
-</script>
 <style scoped lang="css">
   @import './styles.css';
 </style>
