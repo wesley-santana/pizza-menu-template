@@ -1,8 +1,10 @@
 <template>
   <header>
-    <h1>
-      Menu Pizza Template
-    </h1>
+    <ScrollAnimate>
+      <h1>
+        Menu Pizza Template
+      </h1>
+    </ScrollAnimate>
   </header>
 </template>
 <style lang="css">
