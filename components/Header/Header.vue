@@ -8,5 +8,5 @@
   </header>
 </template>
 <style scoped lang="css">
-@import './styles.css';
+  @import './styles.css';
 </style>
