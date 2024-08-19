@@ -33,43 +33,5 @@
     </section>
 </template>
 <style scoped lang="css">
- .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 144px 64px;
-    flex-wrap: wrap;
-    gap: 32px;
-  }
-  dt, dd {
-    color: white;
-  }
-
-  dt {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 4px;
-  }
-
-  dd {
-    font-size: 18px;
-    font-style: italic;
-    color: rgb(153, 153, 153);
-    margin-bottom: 16px;
-  }
-  h2 {
-    font-size: 64px;
-    color: rgb(231, 61, 12);
-    margin-bottom: 32px;
-  }
-
-.container div {
-  flex: 1 1 calc(50% - 32px);
-}
-
-@media (max-width: 768px) {
-  li {
-    flex: 1 1 100%;
-  }
-}
-
+@import './styles.css';
 </style>

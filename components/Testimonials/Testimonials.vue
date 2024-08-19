@@ -36,55 +36,6 @@ onMounted(() => {
   gsap.to(box.value, { rotation: 360, duration: 2 })
 })
 </script>
-
-<style lang="css" scoped>
-#testimonials {
-  background-color: #f9f9f9;
-  padding: 144px 64px;
-}
-
-article {
-  margin-bottom: 32px;
-}
-
-h2,
-h3,
-p {
-  color: #1d1d1d;
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 16px;
-}
-
-p {
-  font-size: 18px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-}
-.container h2 {
-    font-size: 64px;
-    margin-bottom: 32px;
-}
-
-span {
-    font-size: 48px;
-    color: #e73d0c;
-}
-.container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 32px;
-}
-.container div {
-    flex: 1 1 calc(50% - 32px);
-}
-
+<style scoped lang="css">
+@import './styles.css';
 </style>

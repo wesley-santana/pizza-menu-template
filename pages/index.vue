@@ -1,7 +1,7 @@
 <template>
-    <Banner />
-    <Products />
-    <Details />
-    <Testimonials />
-    <Footer />
+  <Header />
+  <Products />
+  <Details />
+  <Testimonials />
+  <Footer />
 </template>
